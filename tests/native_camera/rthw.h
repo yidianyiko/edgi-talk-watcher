@@ -1,0 +1,1 @@
+/* Native semaphore boundary only. */

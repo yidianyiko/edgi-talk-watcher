@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="watcher-token" content="{{ token }}">
+  <title>看守 · 把一件事交给它</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script type="module" src="/static/app.js"></script>
+</head>
+<body>
+<header><a href="/" class="brand">◉ 看守<span>VISUAL WATCHER</span></a><span class="local">本机运行 · Jev</span></header>
+<main>
+  <section class="intro"><div class="eyebrow">给画面一个任务</div><h1>你去忙，<br>这里我看着。</h1><p>留意一个变化，在它发生时提醒你。</p></section>
+  <div class="workspace">
+    <section class="panel setup"><label for="task">你想让我留意什么？</label>
+      <textarea id="task" maxlength="1000" rows="4" placeholder="例如：桌上的蓝色杯子被拿走时提醒我。"></textarea>
+      <button id="voice" class="text-button" type="button">语音输入</button><p id="voice-hint" class="hint"></p><div class="suggestions"><button class="example" data-task="桌上的杯子被拿走时提醒我。">杯子被拿走</button><button class="example" data-task="有人进入画面时提醒我。">有人进入</button><button class="example" data-task="桌上出现包裹时提醒我。">包裹出现</button></div>
+      <label for="interval">采样间隔</label><select id="interval"><option value="3000">3 秒</option><option value="5000" selected>5 秒</option><option value="10000">10 秒</option></select>
+      <p class="hint">开始后，采样画面会发送给 Jev 判断。只拍需要看守的区域。</p>
+      {% if not ready %}<p class="warning">尚未配置 Jev 密钥，请在 .env.local 中设置 JEV_TOKEN。</p>{% endif %}
+      <div class="controls"><button id="camera">开启摄像头</button><button id="start" class="primary" disabled>开始看守</button><button id="pause" disabled>暂停</button></div>
+      <button id="close" class="text-button" disabled>关闭摄像头</button>
+    </section>
+    <section class="panel monitor"><div class="monitor-top"><span id="status" role="status" aria-live="polite" data-state="idle">等待开始</span><span id="checked">尚未判断</span></div>
+      <div class="preview"><video id="video" autoplay playsinline muted></video><div id="placeholder">让摄像头对准你想看守的地方<span>画面会在这里出现</span></div></div>
+      <p id="detail">输入一个具体任务，然后开启摄像头。</p>
+      <div class="meta"><span id="count">已判断 0 次</span><span id="latency">—</span></div>
+    </section>
+  </div>
+  <section class="panel" aria-labelledby="board-voice-heading"><h2 id="board-voice-heading">板卡语音命令</h2><p>点板卡屏幕上的 SPEAK 后说话，可设置看守任务、暂停或继续。每次最多看守 5 分钟。</p><p id="board-voice-state" role="status" aria-live="polite">等待板卡语音命令</p><p id="board-voice-text"></p></section>
+  <section class="events"><div class="section-heading"><h2>发生过什么 <span id="event-count">0 条</span></h2><button id="clear" class="text-button">清空记录</button></div><p id="empty">触发后，前后画面会留在这里。记录保存在本机，刷新后可查看；最多保留 100 条，可随时删除。</p><div id="events"></div></section>
+  <footer>测试版 · 可能漏报或误报。网页看守在离开页面后暂停；板卡发起的看守请用语音或屏幕暂停。</footer>
+</main>
+</body></html>

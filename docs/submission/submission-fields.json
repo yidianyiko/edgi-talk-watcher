@@ -1,0 +1,43 @@
+{
+  "schema_status": "candidate fields; official Tencent sheet inaccessible on 2026-10-22",
+  "project_name": "看守 / Watcher",
+  "forum_title": "〖2026嵌入式大赛〗看守：用一句话设定视觉任务的 Edgi Talk 桌面伙伴",
+  "board": "Infineon Edgi Talk / PSoC Edge E84",
+  "operating_system": "RT-Thread",
+  "summary_zh": "用一句中文设定单目标出现或消失任务；板卡提供摄像头、麦克风、屏幕与提醒，电脑提供ASR、视觉模型调用和事件证据存储。采用现有模型，无需针对目标训练。",
+  "source_code_url": "https://github.com/yidianyiko/edgi-talk-watcher",
+  "forum_article_url": null,
+  "public_video_url": null,
+  "local_video": "artifacts/submission/demo.mp4",
+  "technical_instructions": "docs/submission/quickstart.en.md",
+  "participant_name": "Oliver",
+  "participant_contact": "Provided privately; excluded from public source",
+  "internal_delivery_date_user_provided": "2026-10-30",
+  "official_deadline_user_provided_unverified": "2026-11-01",
+  "submission_status": "Source publication in progress; forum draft ready; official submission pending",
+  "latest_integration_report": "docs/board-camera-integration.md",
+  "default_voice_camera_source": "board USB; explicit PC fallback --camera-source pc",
+  "latest_firmware": {
+    "build": "watch-product-voice-20261022-10",
+    "bytes": 1039160,
+    "sha256": "a930c9df454af0b10af35529232943e6048bf67df48506f5d3d4511cc371a87b",
+    "flash_verified": true,
+    "physical_repeat_shutdown_acceptance": "passed: seven clean stops, model/relay recovery, 300-second-budget sampled-camera soak, three normal-launcher cycles"
+  },
+  "historical_video_scope": "V8 board capture, earlier PC recording and framebuffer; does not establish current integrated runtime acceptance",
+  "acceptance_report": "artifacts/board-integration/acceptance-report.json",
+  "waived_checks": [
+    "Physical USB cable unplug/replug",
+    "Independent speaker volume and clarity",
+    "Physical touch/microphone user gesture in the final integrated runtime"
+  ],
+  "waiver_reason": "User explicitly waived further physical testing on 2026-10-22. These checks are not release blockers and are not represented as passed.",
+  "external_pending": [
+    "Public forum publication and official competition submission"
+  ],
+  "evidence_limits": [
+    "24-hour reliability has not been established."
+  ],
+  "participant_contact_private_file": "var/submission/participant.json",
+  "source_release_url": "https://github.com/yidianyiko/edgi-talk-watcher/releases/tag/competition-2026-10-22"
+}

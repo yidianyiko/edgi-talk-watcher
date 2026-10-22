@@ -1,0 +1,733 @@
+{
+  "kind": "source-only snapshot",
+  "created_on": "2026-10-22",
+  "roots": [
+    "watcher",
+    "tools",
+    "firmware",
+    "tests",
+    "docs",
+    "research/*.py"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 933,
+      "sha256": "31e61154e27444a13b9c08b28b7231aed702cc639cc45de338c2a754764a0245"
+    },
+    {
+      "path": "CONTEXT.md",
+      "bytes": 9488,
+      "sha256": "b58628b399e351d2083ee8db8d0c0f6f75e469daabcadd4b4a04db39878e84dc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4801,
+      "sha256": "630a132436cace5a0529b33c5afb2bf0281fbddbff67c3cf1dcf3be29828c745"
+    },
+    {
+      "path": "requirements-voice.txt",
+      "bytes": 42,
+      "sha256": "fab19ddf705d0ddcac7f3d7c2cf8cedbbed163d695e5ea8762276ba0a0599bc6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 28,
+      "sha256": "14307fff00c8724c2aeabf24b20a323b22e544c9c50b0c566b2242416f6bdd78"
+    },
+    {
+      "path": "research/jev_probe.py",
+      "bytes": 7513,
+      "sha256": "8aa449f7acc6afd1b0d1c579ea6550986d0345a7be2aafc6820f7ca7bfa50f44"
+    },
+    {
+      "path": "research/make_fixtures.py",
+      "bytes": 3116,
+      "sha256": "17993fee35b6399ac726975b5c03a4c45961c0606b791d837ebb4d76ae4e3f2a"
+    },
+    {
+      "path": "watcher/__init__.py",
+      "bytes": 38,
+      "sha256": "208964f820146a7966065a91d7a249d8546c08a6727ab552bc799d71fd1dea1f"
+    },
+    {
+      "path": "watcher/app.py",
+      "bytes": 19121,
+      "sha256": "5b7e5e1736a21520551fcfd0cbe54f0ee2b039449b5c64176bce7cb79da2a801"
+    },
+    {
+      "path": "watcher/board_gateway.py",
+      "bytes": 10105,
+      "sha256": "08c855175842284d6f5023960f13eae913dd401bcf9cf3a5a4e2bcf1f939d167"
+    },
+    {
+      "path": "watcher/board_link.py",
+      "bytes": 6148,
+      "sha256": "5bd7f41c2884776928d87dcbe886d52e968c6bd63ff34dbca8b7a8b6a41e7cf5"
+    },
+    {
+      "path": "watcher/engine.py",
+      "bytes": 3146,
+      "sha256": "3657c6f6d4075674b66ebe5c8cbdcf5578024b0ffba399d069ef22d4fa664c6d"
+    },
+    {
+      "path": "watcher/static/app.js",
+      "bytes": 12662,
+      "sha256": "0a379f68c6c9ed8632771be128341650ee9c4b971e54b31ea7934f48d589e755"
+    },
+    {
+      "path": "watcher/static/session.mjs",
+      "bytes": 3255,
+      "sha256": "22765bf7cf1ce59911c2a62d1d6c0962070360323edf857fec951a7f51855c44"
+    },
+    {
+      "path": "watcher/static/style.css",
+      "bytes": 4328,
+      "sha256": "9aaafc5badc460dcf2c0172be5813283cd294b1d7633771f758a27eeaeffb0b2"
+    },
+    {
+      "path": "watcher/store.py",
+      "bytes": 3584,
+      "sha256": "d14578add401b0df14b8b8709e6daaea35f7e18ba0778384cf50d90b38b372b7"
+    },
+    {
+      "path": "watcher/task_plan.py",
+      "bytes": 5681,
+      "sha256": "4b471ac7f00bc8b48060f162137954ca50345702fabccc6217b2708cb91c7ad1"
+    },
+    {
+      "path": "watcher/templates/index.html",
+      "bytes": 3538,
+      "sha256": "7e45a3417d3f9b197e733c235ae31420649b1e2c09885f6e611fd3e284de7c4c"
+    },
+    {
+      "path": "watcher/voice.py",
+      "bytes": 10098,
+      "sha256": "b8e97a65aeeef0d7264e5e398ce7f829c6140734280685d35cd0033b94062580"
+    },
+    {
+      "path": "tools/archive_recordings.py",
+      "bytes": 5228,
+      "sha256": "ee4bb7831dd90f3f8c05612745c3e33696081cf1719b2ec37e392551cbbc383b"
+    },
+    {
+      "path": "tools/asr_model.json",
+      "bytes": 660,
+      "sha256": "cca079cc7e4acf913421cb6f342ff4800db9a49a4fefc06f0b1f35a681043a7f"
+    },
+    {
+      "path": "tools/board_capture.py",
+      "bytes": 4018,
+      "sha256": "787f9f84cea3364d3cf108056630703cf1ca596ce53d16b2c9b9e34d18af667b"
+    },
+    {
+      "path": "tools/board_status.ps1",
+      "bytes": 14900,
+      "sha256": "dbebff9f91582a27f889b973904079019f75aca1cfd7463efda1374800314e96"
+    },
+    {
+      "path": "tools/build_board_network.sh",
+      "bytes": 3339,
+      "sha256": "e0953aea34e7a6a126c798a99e8f919e6845ec345e701f81744041427933e500"
+    },
+    {
+      "path": "tools/build_board_status.sh",
+      "bytes": 1508,
+      "sha256": "1a8df79d174128bf920cade1de8fe3a2aa8a1eac92dac2bf4159925434a5d27b"
+    },
+    {
+      "path": "tools/build_board_voice.sh",
+      "bytes": 7477,
+      "sha256": "6d5b80d2f052d1bfc1b0c55b963b69215aa6859e9e2513bfa426ca06b5a1e2b5"
+    },
+    {
+      "path": "tools/configure_board_voice.ps1",
+      "bytes": 1530,
+      "sha256": "e69e049e49fa341cc83cfc45712b84c1da1a99e36d9b8f86db88a93e667bd1c8"
+    },
+    {
+      "path": "tools/connect_board_wifi.ps1",
+      "bytes": 3016,
+      "sha256": "030f0b29af59ef5c4074de3d4d1b3a750d0cd29a620761ffe95f6de426786e60"
+    },
+    {
+      "path": "tools/continuous_watch.py",
+      "bytes": 10353,
+      "sha256": "5299a23c774f37f67509c954cdfe6c2493505b2093915e3651f462025d23d3cd"
+    },
+    {
+      "path": "tools/judge_to_board.py",
+      "bytes": 2782,
+      "sha256": "08a2d0d51b395ee076650981ee5335496447cd42968b0692c5839f0994015ac0"
+    },
+    {
+      "path": "tools/pc_camera_relay.py",
+      "bytes": 8429,
+      "sha256": "0ff9c9ba88ca9e72e608e1648bcb2f2338a0f70767d08a2796991029ce0d52a7"
+    },
+    {
+      "path": "tools/probe_board.ps1",
+      "bytes": 946,
+      "sha256": "82f35ec377945491398ca9dbfec8070b6957db0bc036ca5840aa3d06d1ab2c2b"
+    },
+    {
+      "path": "tools/replay_session.py",
+      "bytes": 7137,
+      "sha256": "9a2aa0272642a0c9b0f0476b3c56c5f1ba70ad0dbb4c2b7f6d25455bc83f9ec5"
+    },
+    {
+      "path": "tools/replay_watch.py",
+      "bytes": 3077,
+      "sha256": "06ac3cf734962e57eb87ed543cb8a367e2270de6e8d5bae3531bf0d2e1fcbe21"
+    },
+    {
+      "path": "tools/run_product.py",
+      "bytes": 12800,
+      "sha256": "d0a3cd2b6b50c0b4fd9503ec391666b449f994d866a63a9b1f4ff6a564cffa71"
+    },
+    {
+      "path": "tools/setup_local_asr.py",
+      "bytes": 1906,
+      "sha256": "35a9581237159cda68caaa6cece2e483988bdeae379ed70f0139a42fc14c79bb"
+    },
+    {
+      "path": "tools/synthesize_alert.ps1",
+      "bytes": 660,
+      "sha256": "ac9fe48de114e647f6beb3b03c33980fd7a37a04cc7c53254aeff3f02e58fa62"
+    },
+    {
+      "path": "tools/test_board_product.ps1",
+      "bytes": 1941,
+      "sha256": "266e5edce6e7db6c6da5229e4eb3ec0f11667cdd94ed9b8f813f01845c0cc736"
+    },
+    {
+      "path": "tools/voice_capture.py",
+      "bytes": 7324,
+      "sha256": "7d07b1175f3b1281353f5da0048d45ea098409eecc92522e6edc6622fa052e81"
+    },
+    {
+      "path": "tools/voice_lan_proxy.py",
+      "bytes": 6085,
+      "sha256": "38c8f866937c6fb091c360b00cc484c26abb21875c2d8381faf36fd1db27f634"
+    },
+    {
+      "path": "tools/windows_camera_stream.py",
+      "bytes": 4263,
+      "sha256": "9a2057ac44bfa7c0792723459320d20b6d73f913760a7a700bbfe00242e5ab41"
+    },
+    {
+      "path": "firmware/patches/camera-empty-queue.patch",
+      "bytes": 871,
+      "sha256": "d94f43f806e0c6204f39613e944d3516a9517bb5d739abecc784787ce74950c6"
+    },
+    {
+      "path": "firmware/status/alert_audio.h",
+      "bytes": 99900,
+      "sha256": "df80d48c32a62d4444e2a890f69f065b1d021460183f6215780ec54069e4d1e6"
+    },
+    {
+      "path": "firmware/status/announce.c",
+      "bytes": 5232,
+      "sha256": "c0d5b8fb4edb0d085db38ebcb9cec0a9163da73ae393a19fb0710787d3029fd6"
+    },
+    {
+      "path": "firmware/status/announce.h",
+      "bytes": 169,
+      "sha256": "d83707b544b31ff5efe24ae73719a7c3149883bc53f3e8d921d5c9e8cd282327"
+    },
+    {
+      "path": "firmware/status/announce_protocol.c",
+      "bytes": 596,
+      "sha256": "e0e24dcf22274c60b29b802d6163ccd8c46ad110c1f95bf8b615b8b7e8162dd1"
+    },
+    {
+      "path": "firmware/status/announce_protocol.h",
+      "bytes": 407,
+      "sha256": "7ac5a88dbe3dec46b8effd202100b2a833d82223837ff5122c1915b440062367"
+    },
+    {
+      "path": "firmware/status/camera_recovery.c",
+      "bytes": 499,
+      "sha256": "1a64ddbad1946e5a0eed934ed5da365a784cbe3ae69a4cce5eb88708bbb60c6e"
+    },
+    {
+      "path": "firmware/status/camera_recovery.h",
+      "bytes": 212,
+      "sha256": "5ac82e8eb431d38aa279abadbe77be17d678d9a17c001c535779f37a6aef5525"
+    },
+    {
+      "path": "firmware/status/camera_stop.c",
+      "bytes": 2853,
+      "sha256": "2efe57f7d2a65adea420d8bfb509a5c4a1580a14fea9f474985bb9ef3683be5c"
+    },
+    {
+      "path": "firmware/status/face.c",
+      "bytes": 2744,
+      "sha256": "1dcb3cd14ce16b3c8737b8420402a67350f62697d03177e017bfe8afbdc81150"
+    },
+    {
+      "path": "firmware/status/face.h",
+      "bytes": 616,
+      "sha256": "742647d6f281415b6ae69fab26d302515234b9118a1446374e66101027ef1ff8"
+    },
+    {
+      "path": "firmware/status/gateway.c",
+      "bytes": 2461,
+      "sha256": "9e2f43cd61bbd522c95de00caddd1f4083bfa5cbcc2b399627a211bbe1c90d0f"
+    },
+    {
+      "path": "firmware/status/gateway.h",
+      "bytes": 513,
+      "sha256": "2543e0c35472e57d5ad9ffc9302287c8750373040beeaf8e3d83c60d51050046"
+    },
+    {
+      "path": "firmware/status/main.c",
+      "bytes": 13006,
+      "sha256": "da8cd3d2f976fb1a1a71f2bc69b4d47e6507365843b819d72787d801200931e7"
+    },
+    {
+      "path": "firmware/status/product.c",
+      "bytes": 1147,
+      "sha256": "455479c8c1344239d803b402c74682040ff3180929a83297d43afe1133d25533"
+    },
+    {
+      "path": "firmware/status/product.h",
+      "bytes": 446,
+      "sha256": "169b783ad720af43c1c0cd67041aa383154fd7b1275273737b158d3e5fd12423"
+    },
+    {
+      "path": "firmware/status/standalone.c",
+      "bytes": 6307,
+      "sha256": "90f9721fe3a9e00e26f0f14d01a96c4be6774a12abb92513ef55af27da039709"
+    },
+    {
+      "path": "firmware/status/standalone.h",
+      "bytes": 302,
+      "sha256": "b83f02f59400e4c0d7c2fe0eb38cd2ae1eb9b0b225dbfe44917b5a5128118861"
+    },
+    {
+      "path": "firmware/status/status.c",
+      "bytes": 1322,
+      "sha256": "04339d06823a582eeeb3695b5604522a75c01cd2482ffa4f44b1e4ce380acf2a"
+    },
+    {
+      "path": "firmware/status/status.h",
+      "bytes": 578,
+      "sha256": "d3236462f071fd3b120164cb8f6e2ab20c1083c09171c5c03e7702bc368a19fa"
+    },
+    {
+      "path": "firmware/status/voice.c",
+      "bytes": 8152,
+      "sha256": "c2e42b104a26cd99e071cb29fee2b4fdf15b35091be239bcec8edfc9877dd3db"
+    },
+    {
+      "path": "firmware/status/voice.h",
+      "bytes": 269,
+      "sha256": "3cd208eb008af5ee79a2a8899a23642167b85902fb05ec71d108985b50ea4a42"
+    },
+    {
+      "path": "firmware/status/voice_capture.c",
+      "bytes": 1358,
+      "sha256": "7e4c2bfc286741b536ec263a4e7a6920abced907340e6fbd7a50a16e15535fca"
+    },
+    {
+      "path": "firmware/status/voice_capture.h",
+      "bytes": 217,
+      "sha256": "a9bcc33e46924e451698706ce84941377ef492d40632f1b9220e161b15383b41"
+    },
+    {
+      "path": "firmware/status/voice_protocol.c",
+      "bytes": 1889,
+      "sha256": "35c7cb2bcd83cba3cbb1d5a62a959472504b5d736b0fc91910f4aed4acb9d0db"
+    },
+    {
+      "path": "firmware/status/voice_protocol.h",
+      "bytes": 323,
+      "sha256": "fa10b59e91723c37fabaeaf4543c3a9c1a655fa1b353a3c5887ce5c45be4a520"
+    },
+    {
+      "path": "tests/browser_watcher.cjs",
+      "bytes": 5708,
+      "sha256": "a9538395d06e9376eaad8e7a646402732143f27d77d93499559b6a807642e891"
+    },
+    {
+      "path": "tests/check_board_voice_config.py",
+      "bytes": 1062,
+      "sha256": "e09c1f74ec72c960cd5f2d39fbbaddb197f1426e5ca9b70602f679491a9841ea"
+    },
+    {
+      "path": "tests/native_audio/rtdevice.h",
+      "bytes": 466,
+      "sha256": "996c7f7caa7d43ada4b8957af2f9ef65b885f29e2bccb3ca7e97344d1f4f6aec"
+    },
+    {
+      "path": "tests/native_audio/rtthread.h",
+      "bytes": 340,
+      "sha256": "debd59cdee0386e9f09de10caa3013d1d10a2918be1fa983bcfedbad173c9c6f"
+    },
+    {
+      "path": "tests/native_camera/rthw.h",
+      "bytes": 38,
+      "sha256": "0eee1cd6c3d431f87fbb88286aeeee2d9cab6e3e8791933dfadba5d602e9eb5a"
+    },
+    {
+      "path": "tests/native_camera/rtthread.h",
+      "bytes": 492,
+      "sha256": "ee1a772eaae32bb8a5616accf372f5dffcf3619cfe8ec00cf31aa629de1ff08f"
+    },
+    {
+      "path": "tests/native_usb/board.h",
+      "bytes": 366,
+      "sha256": "5d5dd52d455312b45683f553dadf908ef184412496da644b4375faa257cf6f4f"
+    },
+    {
+      "path": "tests/native_usb/rtthread.h",
+      "bytes": 544,
+      "sha256": "387764f3e405f305f505819816bca220e08a16127cad110594bd4d748990703e"
+    },
+    {
+      "path": "tests/native_usb/usbh_core.h",
+      "bytes": 249,
+      "sha256": "9baea1fac5c9195113d66251fa7ef74af0532d3964da461da6abb16f4810c9b4"
+    },
+    {
+      "path": "tests/test_announce_protocol.c",
+      "bytes": 843,
+      "sha256": "b3fdec297e8582e6128c797d84cb7f6b93b4d12a2e05f5f2e8051283b18ea13c"
+    },
+    {
+      "path": "tests/test_announcement.py",
+      "bytes": 2771,
+      "sha256": "cd7fd8e6be2eac850a41be0735477e8440049e65b00f2ae34e579ca8f6164040"
+    },
+    {
+      "path": "tests/test_board_bridge.py",
+      "bytes": 1821,
+      "sha256": "bf0f9f61a8e72e07f9573594134dc6ce19dad89c8b18171efd4be118d70179a5"
+    },
+    {
+      "path": "tests/test_board_camera_admission.py",
+      "bytes": 4331,
+      "sha256": "d9a546828513b3118d3a51f5c995e93d3f6a1d936593838904bc893985285883"
+    },
+    {
+      "path": "tests/test_board_capture.py",
+      "bytes": 6041,
+      "sha256": "105fcfb3385cdab3abd55b00dc3e1ea0731b0db1ceaebf4e41a4e1099b614ac8"
+    },
+    {
+      "path": "tests/test_board_controls_runtime.py",
+      "bytes": 884,
+      "sha256": "fcd4f000af6341b1556bb149bd99cc2c4a22fc9574375ad4ab08ba5ffd8068a5"
+    },
+    {
+      "path": "tests/test_board_gateway.py",
+      "bytes": 11464,
+      "sha256": "814fd0ae7f2c39254ec85715029d301d50370bd590ed6356806785ab0000edb4"
+    },
+    {
+      "path": "tests/test_board_gateway_alerts.py",
+      "bytes": 4667,
+      "sha256": "ff4120a78056189a249547d2aff0c727f40b1ce07a4866249670410bd6bc9f27"
+    },
+    {
+      "path": "tests/test_board_link.py",
+      "bytes": 4259,
+      "sha256": "5043b080b404b167be8237c583eeede211acba2df256ff5f82077f6d244b00c0"
+    },
+    {
+      "path": "tests/test_board_product.c",
+      "bytes": 1243,
+      "sha256": "4d6bd16497b0fe67f16d90312182ecbb7be6916f356ec947194f75a5489baad4"
+    },
+    {
+      "path": "tests/test_board_wifi.py",
+      "bytes": 1370,
+      "sha256": "1d3400a73bc541685db560cd9457e526a0541cbc203b4ab9deaffed1833faaaf"
+    },
+    {
+      "path": "tests/test_camera_pool.c",
+      "bytes": 1326,
+      "sha256": "1625ed21503fb1fb1270461d14042a15e4133b1bc0960b6cf0e2a9bc8088c83f"
+    },
+    {
+      "path": "tests/test_camera_publication_windows.py",
+      "bytes": 1214,
+      "sha256": "0cc8b38e71858d95086608bd08f7ebc61869c58f08cc7eea3461e59226fd8336"
+    },
+    {
+      "path": "tests/test_camera_recovery.c",
+      "bytes": 1413,
+      "sha256": "13a252c9279e87e961e7868a2d9f074afef1cc6f20afa3e679f7d9aaa6ccc39c"
+    },
+    {
+      "path": "tests/test_camera_stop.c",
+      "bytes": 4538,
+      "sha256": "6bbf2994d33d7d61a8d5ead08a608047fdf10506ebb296018074f7658262c02f"
+    },
+    {
+      "path": "tests/test_continuous.py",
+      "bytes": 6548,
+      "sha256": "843bd9ac78d1d3da29193acfda0a7a945a0e18541a04d66f20bb96c4eb4b7aed"
+    },
+    {
+      "path": "tests/test_engine.py",
+      "bytes": 3104,
+      "sha256": "96957fef37325b1acca37c27f0597ace278fdb36b31cb819c5f82f1de0345440"
+    },
+    {
+      "path": "tests/test_face.c",
+      "bytes": 1995,
+      "sha256": "64b75ef80e9a92f28766d3295ac070068e19b5e4682a2fdd3bf99c0d9209392a"
+    },
+    {
+      "path": "tests/test_gateway.c",
+      "bytes": 1775,
+      "sha256": "14dd6575824293deb115ca5bbc5ddc27682c537983795a55feb8aa7f8f804f24"
+    },
+    {
+      "path": "tests/test_jev_probe.py",
+      "bytes": 3792,
+      "sha256": "6bb1cb01bb971e8781312f427531e3034611cbf1015d25678d815599fcac3715"
+    },
+    {
+      "path": "tests/test_local_asr.py",
+      "bytes": 1376,
+      "sha256": "585864cd022a1b936340639dc1514cdafe82d4c8de8cb3b93f4bad1108b7f8b7"
+    },
+    {
+      "path": "tests/test_pc_camera_relay.py",
+      "bytes": 2592,
+      "sha256": "d9f18ddee08e9873eb860241ef389a1a34702fafe489dd9f8174a6b0a51f08cf"
+    },
+    {
+      "path": "tests/test_recorded_watch.py",
+      "bytes": 4369,
+      "sha256": "50cafd9733b5eaa6fe23f0077a27663a76cbae06cd9e0552306c3b39e1bf1649"
+    },
+    {
+      "path": "tests/test_replay_session.py",
+      "bytes": 1984,
+      "sha256": "95fb3bb06b6a1d8427d8bae67d30a4049db369681be896e39541177eb798e5a9"
+    },
+    {
+      "path": "tests/test_status.c",
+      "bytes": 1579,
+      "sha256": "d3a7c6fde647ceae39734fde2316b946105e0955a18c5664f8c90003fa7ddc55"
+    },
+    {
+      "path": "tests/test_voice.py",
+      "bytes": 14181,
+      "sha256": "430ff6cb09f4de778d6200a5c0f07f27b0727bb9b41c294ba6ad9f40c4e3d504"
+    },
+    {
+      "path": "tests/test_voice_capture.c",
+      "bytes": 1878,
+      "sha256": "a8ce37276589e0e5fdbac5bc5a7950d91cf41041ce6292a98459c3106a644190"
+    },
+    {
+      "path": "tests/test_voice_capture.py",
+      "bytes": 3833,
+      "sha256": "d8147a9f75812ddab1971d135048274dad199d5a2c727aa0038ea9a7a2502c38"
+    },
+    {
+      "path": "tests/test_voice_lan_proxy.py",
+      "bytes": 5735,
+      "sha256": "b77d9a2d48433315b514ca96fcd349e3f63ba2b047ff0a65cbbe9b8c4c80719b"
+    },
+    {
+      "path": "tests/test_voice_protocol.c",
+      "bytes": 1655,
+      "sha256": "063298a9572cdb2fe104232911864287d31119544925d4548f4a512b6eb7ba29"
+    },
+    {
+      "path": "tests/test_watcher.py",
+      "bytes": 2941,
+      "sha256": "f00d49231c93286bcf16055cc2f084d08563cd0f50fbbb519b026fbdf40ac171"
+    },
+    {
+      "path": "tests/test_web_lifecycle.py",
+      "bytes": 4070,
+      "sha256": "4551db4b7e46b5e569c0f4dd6176b4edb4cbbd8eef49db2f4cf128d3736395c1"
+    },
+    {
+      "path": "tests/test_web_store.py",
+      "bytes": 6447,
+      "sha256": "b1222358ca3fe6cee44b77c6608947f65867cdaf8ef8ca02c59bcf2714d0e9d7"
+    },
+    {
+      "path": "tests/watcher_state.test.mjs",
+      "bytes": 2762,
+      "sha256": "a12da98ef61c448678b2b5751ba1d9e312e73e2e6d4dd4fd832799c54c2b94f8"
+    },
+    {
+      "path": "tests/web_fixture_server.py",
+      "bytes": 1178,
+      "sha256": "57f525bae1a4a57f78a3f0d3ef6424b344a8fbe28e39a510463122ce4a299b45"
+    },
+    {
+      "path": "docs/adr/001-board-inference-gateway.md",
+      "bytes": 1140,
+      "sha256": "99f6cf982e51cfbb7efa15c9a972db30eebee24de640e88f0abc0486c51046ce"
+    },
+    {
+      "path": "docs/autonomous-validation.md",
+      "bytes": 3009,
+      "sha256": "90fb1fd17963ef114cc7db2ea40cda16eef23969a157ce5ee1d59efd5249f031"
+    },
+    {
+      "path": "docs/board-camera-integration.md",
+      "bytes": 8460,
+      "sha256": "d6bd12e4450aba84b8d7245af71b83ca3a39d18b6c62d02018b855853e766ab7"
+    },
+    {
+      "path": "docs/board-camera.md",
+      "bytes": 4365,
+      "sha256": "3995d46a201b6e31b77da68a2e4aaad0b8078f125d956443d05a6c7b0c807402"
+    },
+    {
+      "path": "docs/board-status.md",
+      "bytes": 5845,
+      "sha256": "ac0a3b023a9b36bbc0aaf5f6c4a97646339cccc6c2b859c97aa94e85092ed9e5"
+    },
+    {
+      "path": "docs/board-voice.md",
+      "bytes": 4708,
+      "sha256": "b45f1034a3ba038e0255bb1e07041dfd901bc786666e8c4c9758838360caec8f"
+    },
+    {
+      "path": "docs/continuous-watch.md",
+      "bytes": 6131,
+      "sha256": "de73c53a326dc0a2fde55ce4abca5a74a3ecc786881958e64c6e3f39f604e174"
+    },
+    {
+      "path": "docs/event-announcement.md",
+      "bytes": 3842,
+      "sha256": "edd3aef7013cfaecd713ae5e9f8b8e4f6c4406653cd1e848ee2415bfb6af67be"
+    },
+    {
+      "path": "docs/lessons.md",
+      "bytes": 16106,
+      "sha256": "ad275be7e4bccf83542d492dc827a3b7500ed63c800375d5436d7f5d9091d191"
+    },
+    {
+      "path": "docs/pc-camera-relay.md",
+      "bytes": 4151,
+      "sha256": "b4f7c95c8f403a4f004e0e60697a5447ab391c7b5b3b584eb56c4614b6abfd34"
+    },
+    {
+      "path": "docs/product-status.md",
+      "bytes": 10747,
+      "sha256": "4efb2ad1e2a1436e803f63f52b8389c9441464f2131d8cb20cc2c119da85f928"
+    },
+    {
+      "path": "docs/recorded-regression.md",
+      "bytes": 5780,
+      "sha256": "85883f5c4f593e4ee8543743d33b79388708e88a2aabf94628fdd3ff13b4cc86"
+    },
+    {
+      "path": "docs/screen-face.md",
+      "bytes": 2546,
+      "sha256": "e94f2e44d38d934bbd68313097969f4dc5fd3468fadf91805fa9c78bc7976965"
+    },
+    {
+      "path": "docs/slices/product-completion/001-recorded-session.md",
+      "bytes": 1054,
+      "sha256": "0a629bcaba386a758fbc4ff069e4192a994f1ae56eab0c2343ed66d33ad99edd"
+    },
+    {
+      "path": "docs/slices/product-completion/002-web-product.md",
+      "bytes": 842,
+      "sha256": "c0c4409b3536d4bd8e089fad278167166511d91a3f75d233719fc6af5e3e9c8e"
+    },
+    {
+      "path": "docs/slices/product-completion/003-board-product.md",
+      "bytes": 1521,
+      "sha256": "6ec501dcd39226cf1810009221ebdef9f01205c34e315c3e9d400b4a90a40ee8"
+    },
+    {
+      "path": "docs/specs/board-camera-integration.md",
+      "bytes": 1808,
+      "sha256": "8062ac48bdc45d96fcf72cff44a5a47955993441d65412c8e21c95e0e54394fa"
+    },
+    {
+      "path": "docs/specs/board-voice.md",
+      "bytes": 3585,
+      "sha256": "ac6f5da1b871c77f3eaf719bb1ff089fd80b5e38a6eaf07fdfcfba90f8d27d08"
+    },
+    {
+      "path": "docs/specs/event-announcement.md",
+      "bytes": 1673,
+      "sha256": "c03297cb336d9606382429d110c1f487b21c98e6a1bec34c8ca0952a3f27a161"
+    },
+    {
+      "path": "docs/specs/product-completion.md",
+      "bytes": 3616,
+      "sha256": "49e54435af651583dedc3e2061f1c4d54a5eeaa1a4468c4324e884be9a59615e"
+    },
+    {
+      "path": "docs/specs/screen-face.md",
+      "bytes": 1098,
+      "sha256": "9eaa6ce94fc00e1447d68e56073624bb049c7a00c85142b59f8978a0e1a15f83"
+    },
+    {
+      "path": "docs/submission/README.md",
+      "bytes": 1812,
+      "sha256": "90e99ce0b2f7dfb0033abf0bba8270b63be6b18835ae7c913026ce4f4de18096"
+    },
+    {
+      "path": "docs/submission/build_demo.py",
+      "bytes": 8517,
+      "sha256": "adb66503609e1fe1b8db33a5f23b7b484dddc15eff53c022911015183b9ff0a9"
+    },
+    {
+      "path": "docs/submission/build_source_release.py",
+      "bytes": 4521,
+      "sha256": "58444fed2ca2f5d5a622421aa9c79b66dfb90412b7deb35ed08b56de1aa430ab"
+    },
+    {
+      "path": "docs/submission/forum-draft.zh.md",
+      "bytes": 8254,
+      "sha256": "5a3b952dc6f19a6b45654710c6cb3e53e5268b3fbf44753f23701839b6bbb035"
+    },
+    {
+      "path": "docs/submission/quickstart.en.md",
+      "bytes": 6887,
+      "sha256": "8c47c1c3246472c8f43a3a6e59ee82bbbcd51cee25ed7665838c82dca0bdc50c"
+    },
+    {
+      "path": "docs/submission/source-build-notes.en.md",
+      "bytes": 3264,
+      "sha256": "89993d3ad08b9b6341bc4826aaf535c446436d44b5ed6cdcb35364bf80d9b760"
+    },
+    {
+      "path": "docs/submission/submission-checklist.md",
+      "bytes": 5082,
+      "sha256": "8fc6e7ff356067362712b33c7aa09e5171b96457fd8710a018b729daa62714a4"
+    },
+    {
+      "path": "docs/submission/submission-fields.json",
+      "bytes": 2588,
+      "sha256": "59abce9f0ea5b2227ff9e6816416710e743e36dde042cb318effa780be566926"
+    },
+    {
+      "path": "docs/watcher-validation.md",
+      "bytes": 2828,
+      "sha256": "dda15afdd9e49292dce2f105fc146ca7d178ff344e21510fc0f120af9d228f12"
+    }
+  ],
+  "excluded": [
+    "vendor/",
+    "var/",
+    ".env*",
+    "artifacts/",
+    "testdata/",
+    "research/fixtures/",
+    "compiled binaries",
+    "generated caches",
+    "raw recordings and scenes"
+  ],
+  "credential_scope_check": "only allowlisted text scanned; private values not read or reported",
+  "bsp_revision": "b135be8a28127e276a04b70d27950c3ba07b917a",
+  "fixture_limit": "testdata excluded; fixture-dependent tests need separate reviewed fixtures"
+}

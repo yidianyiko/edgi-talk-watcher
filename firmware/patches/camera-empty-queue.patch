@@ -1,0 +1,15 @@
+diff --git a/libraries/components/CherryUSB-1.6.0/third_party/cherrymp/chry_mempool_osal_rtthread.c b/libraries/components/CherryUSB-1.6.0/third_party/cherrymp/chry_mempool_osal_rtthread.c
+index 86042e29..4db517a4 100644
+--- a/libraries/components/CherryUSB-1.6.0/third_party/cherrymp/chry_mempool_osal_rtthread.c
++++ b/libraries/components/CherryUSB-1.6.0/third_party/cherrymp/chry_mempool_osal_rtthread.c
+@@ -9,7 +9,9 @@
+ 
+ chry_mempool_osal_sem_t chry_mempool_osal_sem_create(uint32_t max_count)
+ {
+-    return (chry_mempool_osal_sem_t)rt_sem_create("chry_mempoolh_sem", max_count, RT_IPC_FLAG_FIFO);
++    /* Free buffers are not completed frames: the receive queue starts empty. */
++    (void)max_count;
++    return (chry_mempool_osal_sem_t)rt_sem_create("chry_mempoolh_sem", 0, RT_IPC_FLAG_FIFO);
+ }
+ 
+ void chry_mempool_osal_sem_delete(chry_mempool_osal_sem_t sem)
