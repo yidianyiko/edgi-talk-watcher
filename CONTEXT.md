@@ -64,4 +64,4 @@ The normal voice launcher uses the board USB camera; the PC camera is an explici
 
 ## Source publication (2026-10-22)
 
-User authorized GitHub source upload. The reviewed source snapshot is published at https://github.com/yidianyiko/edgi-talk-watcher . Participant name is Oliver; contact details remain only in private `var/submission/participant.json`. Forum article is ready in `docs/submission/forum-draft.zh.md`, but is not posted and the official entry has not been submitted. Public source excludes credentials, recordings, private scenes, vendor BSP and runtime artifacts.
+User authorized GitHub source upload. The reviewed source snapshot is published at https://github.com/yidianyiko/edgi-talk-watcher . Participant name is Oliver; contact details remain only in private `var/submission/participant.json`. Forum article is kept locally only in `docs/submission/forum-draft.zh.md`, excluded from public source and source ZIP, and is not posted and the official entry has not been submitted. Public source excludes credentials, recordings, private scenes, vendor BSP and runtime artifacts.

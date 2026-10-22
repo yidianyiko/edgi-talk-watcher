@@ -1,8 +1,8 @@
 # Watcher competition package
 
-Prepared on 2026-10-22. Public source: https://github.com/yidianyiko/edgi-talk-watcher . Participant: Oliver; contact details are retained privately and excluded from this repository. The forum article is ready to paste but has not been posted. These materials are not an official competition submission receipt.
+Prepared on 2026-10-22. Public source: https://github.com/yidianyiko/edgi-talk-watcher . Participant: Oliver; contact details are retained privately and excluded from this repository. The forum article is kept locally only, excluded from the public repository and source ZIP, and has not been posted. These materials are not an official competition submission receipt.
 
-- `forum-draft.zh.md`: Chinese forum article, using the title format supplied by the user.
+- Local-only `forum-draft.zh.md`: Chinese forum article, excluded from public source packages.
 - `quickstart.en.md`: English setup, operation and reproducible evaluation instructions.
 - `submission-checklist.md`: submission status, provenance and external blockers.
 - `source-build-notes.en.md`: clean-BSP build sequence and source snapshot limits.

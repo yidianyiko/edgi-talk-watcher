@@ -2,7 +2,7 @@
 
 作者：Oliver。基于 RT-Thread 与英飞凌 Edgi Talk 的桌面视觉看守原型。
 
-公开源码快照不含厂商 BSP、模型权重、运行凭据、私人录音、原始测试素材和 `artifacts/`。文中 `artifacts/` 与 `testdata/` 路径描述本地证据，不是仓库内可下载的文件；依赖它们的回放和测试需要另备素材。开始使用请阅读[运行说明](docs/submission/quickstart.en.md)、[固件构建说明](docs/submission/source-build-notes.en.md)和[作品介绍](docs/submission/forum-draft.zh.md)。
+公开源码快照不含厂商 BSP、模型权重、运行凭据、私人录音、原始测试素材和 `artifacts/`。文中 `artifacts/` 与 `testdata/` 路径描述本地证据，不是仓库内可下载的文件；依赖它们的回放和测试需要另备素材。开始使用请阅读[运行说明](docs/submission/quickstart.en.md)、[固件构建说明](docs/submission/source-build-notes.en.md)。
 
 The daily launcher is `.venv/bin/python -m tools.run_product --voice`. It uses the UVC camera attached to Edgi Talk, with local speech recognition and an authenticated Windows relay. Use `--camera-source pc` for the explicit PC fallback. The host must remain running; startup is paused. See [current integration and verification](docs/board-camera-integration.md) and [voice instructions](docs/board-voice.md).
 

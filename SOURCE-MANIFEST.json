@@ -17,13 +17,13 @@
     },
     {
       "path": "CONTEXT.md",
-      "bytes": 9986,
-      "sha256": "34385a7c62f9be856d50cbf9a2aaa9fcdd855b7628b6522e3586e0dcafe25560"
+      "bytes": 10042,
+      "sha256": "29f5d04a6feaaa2754e7822f691be2ee6fe3c3a9ae85203385f98643af155f01"
     },
     {
       "path": "README.md",
-      "bytes": 4801,
-      "sha256": "630a132436cace5a0529b33c5afb2bf0281fbddbff67c3cf1dcf3be29828c745"
+      "bytes": 4749,
+      "sha256": "18694093afa89b1c6fbc8f9bbe385d59bf893091784a7f74ec873f87b12c16f9"
     },
     {
       "path": "requirements-voice.txt",
@@ -672,8 +672,8 @@
     },
     {
       "path": "docs/submission/README.md",
-      "bytes": 2012,
-      "sha256": "3740d742f4ef8886ded1ed7c1a4c8ed770203be41bfba37022ae5e13ce7fcaf4"
+      "bytes": 2072,
+      "sha256": "009e462ff7ddded05981541a8fadbd1d06d8723f44351e4e6816ca1f1f685e3d"
     },
     {
       "path": "docs/submission/build_demo.py",
@@ -682,13 +682,8 @@
     },
     {
       "path": "docs/submission/build_source_release.py",
-      "bytes": 4521,
-      "sha256": "58444fed2ca2f5d5a622421aa9c79b66dfb90412b7deb35ed08b56de1aa430ab"
-    },
-    {
-      "path": "docs/submission/forum-draft.zh.md",
-      "bytes": 8254,
-      "sha256": "5a3b952dc6f19a6b45654710c6cb3e53e5268b3fbf44753f23701839b6bbb035"
+      "bytes": 4684,
+      "sha256": "c90540bc3546984b403de3c2937141c232003ee63486cd0a6c51d5185b3253f7"
     },
     {
       "path": "docs/submission/quickstart.en.md",
@@ -697,13 +692,13 @@
     },
     {
       "path": "docs/submission/source-build-notes.en.md",
-      "bytes": 3264,
-      "sha256": "89993d3ad08b9b6341bc4826aaf535c446436d44b5ed6cdcb35364bf80d9b760"
+      "bytes": 3346,
+      "sha256": "29d69e507215cfecdb51b7c46f7e6494bb472f42069ddd4d9fa577b67ae4edd7"
     },
     {
       "path": "docs/submission/submission-checklist.md",
-      "bytes": 5309,
-      "sha256": "ca9cdad17f092dd310fe23b8b9f6f35e4c71224dee140b16bb969e7794fc074a"
+      "bytes": 5347,
+      "sha256": "3ca4e449067910da87914513a4df8704a1c2fd2bdff1be9f5467384e6624a3f7"
     },
     {
       "path": "docs/submission/submission-fields.json",
@@ -723,6 +718,7 @@
     "artifacts/",
     "testdata/",
     "research/fixtures/",
+    "docs/submission/forum-draft.zh.md",
     "compiled binaries",
     "generated caches",
     "raw recordings and scenes"

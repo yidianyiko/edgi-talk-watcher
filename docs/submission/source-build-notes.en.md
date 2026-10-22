@@ -1,6 +1,6 @@
 # Source snapshot and clean-BSP build
 
-`artifacts/submission/source.zip` is an allowlisted source snapshot. Its embedded `SOURCE-MANIFEST.json` lists the exact files, sizes and SHA-256 digests. It includes the root `watcher/`, `tools/`, `firmware/`, `tests/`, `docs/`, `AGENTS.md`, `CONTEXT.md`, `README.md`, requirement files and the runtime dependency `research/*.py`. Research fixture PNGs are excluded. It excludes the vendor BSP, `.env*`, runtime data, compiled binaries/caches, original scenes, test recordings and all existing artifacts. This reduces accidental disclosure; it does not transfer vendor rights or provide a full offline distribution.
+`artifacts/submission/source.zip` is an allowlisted source snapshot. Its embedded `SOURCE-MANIFEST.json` lists the exact files, sizes and SHA-256 digests. It includes the root `watcher/`, `tools/`, `firmware/`, `tests/`, `docs/`, `AGENTS.md`, `CONTEXT.md`, `README.md`, requirement files and the runtime dependency `research/*.py`. Research fixture PNGs are excluded. The forum article `docs/submission/forum-draft.zh.md` is local-only and excluded. It excludes the vendor BSP, `.env*`, runtime data, compiled binaries/caches, original scenes, test recordings and all existing artifacts. This reduces accidental disclosure; it does not transfer vendor rights or provide a full offline distribution.
 
 ## Dependencies and reproducibility limits
 

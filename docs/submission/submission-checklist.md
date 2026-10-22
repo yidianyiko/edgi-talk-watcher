@@ -19,7 +19,7 @@
 - [ ] Publish the reviewed forum article through an authorized logged-in account, then record its real URL.
 - [ ] Fill the actual sheet/form and retain a readback/receipt. A local ZIP or HTTP200 from an unrelated page does not establish entry acceptance.
 
-Source code has been published to GitHub with user authorization. The forum article is prepared but not posted; no official submission-sheet write has been performed. Contact information remains private.
+Source code has been published to GitHub with user authorization. The forum article is prepared locally, excluded from public source, and not posted; no official submission-sheet write has been performed. Contact information remains private.
 
 ## Current integrated runtime
 

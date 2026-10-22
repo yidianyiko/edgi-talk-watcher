@@ -10,6 +10,7 @@ OUT = ROOT/'artifacts/submission'
 TREES = ('watcher', 'tools', 'firmware', 'tests', 'docs')
 EXTENSIONS = {'.py', '.ps1', '.sh', '.c', '.h', '.patch', '.json', '.js', '.mjs',
               '.cjs', '.css', '.html', '.md', '.txt'}
+LOCAL_ONLY = {'docs/submission/forum-draft.zh.md'}
 IGNORED_PARTS = {'__pycache__', '.pytest_cache', '.mypy_cache', '.ruff_cache', 'node_modules', '.git'}
 CREDENTIAL_ASSIGNMENT = re.compile(
     r'(?im)^\s*(?:export\s+)?(?:JEV_TOKEN|WIFI_PASSWORD|BOARD_GATEWAY_TOKEN)\s*=\s*'
@@ -29,6 +30,8 @@ def main():
     for tree in TREES:
         for path in sorted((ROOT/tree).rglob('*')):
             relative = path.relative_to(ROOT)
+            if relative.as_posix() in LOCAL_ONLY:
+                continue
             if any(part in IGNORED_PARTS for part in relative.parts) or path.suffix == '.pyc':
                 if path.is_file():
                     skipped_cache_files += 1
@@ -58,7 +61,7 @@ def main():
         'kind': 'source-only snapshot', 'created_on': '2026-10-22',
         'roots': list(TREES) + ['research/*.py'], 'files': entries,
         'excluded': ['vendor/', 'var/', '.env*', 'artifacts/', 'testdata/',
-                     'research/fixtures/', 'compiled binaries', 'generated caches', 'raw recordings and scenes'],
+                     'research/fixtures/', 'docs/submission/forum-draft.zh.md', 'compiled binaries', 'generated caches', 'raw recordings and scenes'],
         'credential_scope_check': 'only allowlisted text scanned; private values not read or reported',
         'bsp_revision': 'b135be8a28127e276a04b70d27950c3ba07b917a',
         'fixture_limit': 'testdata excluded; fixture-dependent tests need separate reviewed fixtures',
