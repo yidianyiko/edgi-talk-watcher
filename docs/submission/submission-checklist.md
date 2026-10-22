@@ -14,12 +14,12 @@
 - [ ] Read the actual official announcement and current submission sheet in an authenticated browser if required. Automated fetch on 2026-10-22 returned HTTP468 for the announcement; the Tencent sheet was inaccessible. No exact required fields, eligibility details or media constraints were inferred.
 - [ ] Confirm official deadline and title/category against those pages. User-provided schedule: internal 10/30, official 11/1. Search-index listings include other similarly named competitions and must not be substituted for this announcement.
 - [x] Participant name and contact supplied by the user; private contact retained locally.
-- [ ] Publish source and verify its public URL.
+- [x] Public source repository published and read back: https://github.com/yidianyiko/edgi-talk-watcher (main). Source package release: `competition-2026-10-22`.
 - [ ] Add a public video URL or upload the existing file as the form permits.
 - [ ] Publish the reviewed forum article through an authorized logged-in account, then record its real URL.
 - [ ] Fill the actual sheet/form and retain a readback/receipt. A local ZIP or HTTP200 from an unrelated page does not establish entry acceptance.
 
-No public article, public upload or submission-sheet write was performed for this package.
+Source code has been published to GitHub with user authorization. The forum article is prepared but not posted; no official submission-sheet write has been performed. Contact information remains private.
 
 ## Current integrated runtime
 

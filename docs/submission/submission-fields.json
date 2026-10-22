@@ -14,7 +14,7 @@
   "participant_contact": "Provided privately; excluded from public source",
   "internal_delivery_date_user_provided": "2026-10-30",
   "official_deadline_user_provided_unverified": "2026-11-01",
-  "submission_status": "Source publication in progress; forum draft ready; official submission pending",
+  "submission_status": "Public source repository published; forum article ready but not posted; official competition submission pending",
   "latest_integration_report": "docs/board-camera-integration.md",
   "default_voice_camera_source": "board USB; explicit PC fallback --camera-source pc",
   "latest_firmware": {

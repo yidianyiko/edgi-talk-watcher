@@ -1,6 +1,6 @@
 # Watcher competition package
 
-Prepared on 2026-10-22. This directory contains reviewable submission material; it is not a publication receipt.
+Prepared on 2026-10-22. Public source: https://github.com/yidianyiko/edgi-talk-watcher . Participant: Oliver; contact details are retained privately and excluded from this repository. The forum article is ready to paste but has not been posted. These materials are not an official competition submission receipt.
 
 - `forum-draft.zh.md`: Chinese forum article, using the title format supplied by the user.
 - `quickstart.en.md`: English setup, operation and reproducible evaluation instructions.

@@ -17,8 +17,8 @@
     },
     {
       "path": "CONTEXT.md",
-      "bytes": 9488,
-      "sha256": "b58628b399e351d2083ee8db8d0c0f6f75e469daabcadd4b4a04db39878e84dc"
+      "bytes": 9986,
+      "sha256": "34385a7c62f9be856d50cbf9a2aaa9fcdd855b7628b6522e3586e0dcafe25560"
     },
     {
       "path": "README.md",
@@ -672,8 +672,8 @@
     },
     {
       "path": "docs/submission/README.md",
-      "bytes": 1812,
-      "sha256": "90e99ce0b2f7dfb0033abf0bba8270b63be6b18835ae7c913026ce4f4de18096"
+      "bytes": 2012,
+      "sha256": "3740d742f4ef8886ded1ed7c1a4c8ed770203be41bfba37022ae5e13ce7fcaf4"
     },
     {
       "path": "docs/submission/build_demo.py",
@@ -702,13 +702,13 @@
     },
     {
       "path": "docs/submission/submission-checklist.md",
-      "bytes": 5082,
-      "sha256": "8fc6e7ff356067362712b33c7aa09e5171b96457fd8710a018b729daa62714a4"
+      "bytes": 5309,
+      "sha256": "ca9cdad17f092dd310fe23b8b9f6f35e4c71224dee140b16bb969e7794fc074a"
     },
     {
       "path": "docs/submission/submission-fields.json",
-      "bytes": 2588,
-      "sha256": "59abce9f0ea5b2227ff9e6816416710e743e36dde042cb318effa780be566926"
+      "bytes": 2621,
+      "sha256": "3004edabff53790de8718daac38c693065c4089a6571dab7263f0b273046a8f4"
     },
     {
       "path": "docs/watcher-validation.md",
