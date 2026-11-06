@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+artifacts/
+vendor/
+var/
+
+.venv/
+
+# Private scenes, audio and local submission materials
+testdata/
+research/fixtures/
+docs/submission/forum-draft.zh.md
+
+# Generated enclosure outputs and printer-specific jobs
+design/enclosure/.archive/
+design/enclosure/print-ready/
+design/enclosure/*.zip
+design/enclosure/**/print/
+design/enclosure/**/*.log
+design/enclosure/**/mesh-report.json
+design/enclosure/**/clearance-report.json
+design/enclosure/**/final-print-*.json

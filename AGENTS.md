@@ -12,3 +12,5 @@ Current intent and boundaries: `CONTEXT.md`. Board status transport, flash offse
 - Bounded physical-camera continuous test (billable): `python3 -m tools.continuous_watch --task '<task>' --seconds 300 --interval 5 --max-calls 60`
 - Windows file publication regression: run `tests/test_camera_publication_windows.py` with the installed Windows Python; Linux skips its sharing-semantics test.
 
+- Hippo enclosure STL export: `QT_QPA_PLATFORM=offscreen python3 design/enclosure/hippo-v1/export.py`
+- Hippo enclosure geometry checks (Python with numpy/trimesh): `python3 design/enclosure/hippo-v1/verify_meshes.py` and `QT_QPA_PLATFORM=offscreen python3 design/enclosure/hippo-v1/check_clearances.py`; fit limits and setup: `design/enclosure/hippo-v1/README.zh.md`.

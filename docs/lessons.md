@@ -102,3 +102,8 @@ Flash备份使用已验证的 `flash read_bank`，再检查字节分布、映像
 - V9 passed seven starts but hard-faulted on the final stream stop. A first-frame response or several successful sessions does not establish repeated shutdown reliability.
 - Preserve the matching ELF, both thread and exception stacks, USB channel registers and UART trace before resetting a faulted board. Here those showed a stale channel-halted IRQ after the proprietary cancellation routine cleared its URB pointer, separating the actual fault from an initially plausible freed-buffer callback race.
 - Failure reports must refresh persisted event counts in cleanup; a report last saved before a failed shutdown can lag the database.
+
+## 2026-10-23 · 外壳装配检查（review / retro）
+
+- 机械分件导出后，同时检查装配位置的实体交集；单件网格封闭不能证明零件能装到一起。本次 V0 初稿的鼻吻与嘴唇重叠、摄像头托架超过内腔，均在单件可导出的情况下由独立复核发现。已在鼻吻增加让位并扩展头顶空间，新增 `design/enclosure/hippo-v0/check_clearances.py`，本轮六组指定交集体积均为零。
+- 将官方成品外形、裸 PCB 轮廓、完整元件包络和屏幕玻璃尺寸分别标注来源，避免将成品尺寸用于裸板孔位。当前 STEP 提取的是 PCB 单层介质轮廓；屏幕和叠层空间保留为 V0 试装项，见该目录 `README.zh.md` 与 `reference-measurements.json`。
